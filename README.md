@@ -44,7 +44,7 @@ With the recent advancements in single-image-based human mesh recovery, there is
 
 ## Result
 
-We also offer quantitive result for better comparison :eyes:
+We also some offer quantitive results for better comparison :eyes:
 
 <div align="center">
   <img src="./assets/result1.png" alt="result1">
@@ -55,3 +55,5 @@ We also offer quantitive result for better comparison :eyes:
 <div align="center">
   <img src="./assets/result3.png" alt="result3">
 </div>
+
+For more results, check our paper!
