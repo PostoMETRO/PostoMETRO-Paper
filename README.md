@@ -3,7 +3,7 @@ This is a repo for paper :point_right: **PostoMETRO: Pose Token Enhanced Mesh Tr
 ## Visualization 
 
 <!-- ![Teaser 1](./assets/teaser_narrow_1.gif) ![Teaser 2](./assets/teaser_wide_1.gif) -->
-We offer some GIF teasers to demonstrate the generalizability of PostoMETRO :point_down:
+We offer some GIF teasers to demonstrate the generalizability of PostoMETRO :eyes:
 
 <div style="display: flex; align-items: center;">
   <img src="./assets/teaser_narrow_1.gif" alt="teaser 1" style="height: 300px; margin-right:20px; margin-bottom: 20px">
@@ -44,7 +44,7 @@ With the recent advancements in single-image-based human mesh recovery, there is
 
 ## Result
 
-We also offer quantitive result for better comparison :point_down:
+We also offer quantitive result for better comparison :eyes:
 
 <div align="center">
   <img src="./assets/result1.png" alt="result1">
