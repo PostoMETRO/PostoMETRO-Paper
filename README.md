@@ -1,4 +1,5 @@
 # PostoMETRO-Paper
+This is a repo for paper :point_right: **PostoMETRO: Pose Token Enhanced Mesh Transformer for Robust 3D Human Mesh Recovery**
 ## Visualization 
 
 <!-- ![Teaser 1](./assets/teaser_narrow_1.gif) ![Teaser 2](./assets/teaser_wide_1.gif) -->
