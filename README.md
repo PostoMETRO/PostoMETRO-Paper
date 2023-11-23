@@ -16,7 +16,7 @@ We offer some GIF teasers to demonstrate the generalizability of PostoMETRO
 </div>
 
 
-We also compare our method with FastMETRO to show its improvement
+We also offer visualization results on 3DPW and OCHuman datasets, and occlusion sensitivity analysis results compared with other baselines
 
 <div align="center">
   <img src="./assets/visualization.png" alt="vis">
