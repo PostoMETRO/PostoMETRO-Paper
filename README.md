@@ -1,9 +1,9 @@
 # PostoMETRO-Paper
-This is a repo for paper :point_right: **PostoMETRO: Pose Token Enhanced Mesh Transformer for Robust 3D Human Mesh Recovery**
-## Visualization 
+This is a repo for our paper :point_right: **PostoMETRO: Pose Token Enhanced Mesh Transformer for Robust 3D Human Mesh Recovery**
+## Visualization :eyes:
 
 <!-- ![Teaser 1](./assets/teaser_narrow_1.gif) ![Teaser 2](./assets/teaser_wide_1.gif) -->
-We offer some GIF teasers to demonstrate the generalizability of PostoMETRO :eyes:
+We offer some GIF teasers to demonstrate the generalizability of PostoMETRO
 
 <div style="display: flex; align-items: center;">
   <img src="./assets/teaser_narrow_1.gif" alt="teaser 1" style="height: 300px; margin-right:20px; margin-bottom: 20px">
@@ -16,7 +16,7 @@ We offer some GIF teasers to demonstrate the generalizability of PostoMETRO :eye
 </div>
 
 
-We also compare our method with FastMETRO to show its improvement :eyes:
+We also compare our method with FastMETRO to show its improvement
 
 <div align="center">
   <img src="./assets/visualization.png" alt="vis">
@@ -29,7 +29,7 @@ We also compare our method with FastMETRO to show its improvement :eyes:
 
 For more results, check our paper!
 
-## Overview
+## Overview :monocle_face:
 
 With the recent advancements in single-image-based human mesh recovery, there is a growing interest in enhancing its performance in certain extreme scenarios, such as occlusion, while maintaining overall model accuracy. Although obtaining accurately annotated 3D human poses under occlusion is challenging, there is still a wealth of rich and precise 2D pose annotations that can be leveraged. However, existing works mostly focus on directly leveraging 2D pose coordinates to estimate 3D pose and mesh. In this paper, we present $\textbf{PostoMETRO}$ ($\textbf{Pos}$e $\textbf{to}$ken enhanced $\textbf{ME}$sh $\textbf{TR}$ansf$\textbf{O}$rmer), which integrates occlusion-resilient 2D pose representation into transformers in a token-wise manner. Utilizing a specialized pose tokenizer, we efficiently condense 2D pose data to a compact sequence of pose tokens and feed them to the transformer together with the image tokens. This process not only ensures a rich depiction of texture from the image but also fosters a robust integration of pose and image information. Subsequently, these combined tokens are queried by vertex and joint tokens to decode 3D coordinates of mesh vertices and human joints. Facilitated by the robust pose token representation and the effective combination, we are able to produce more precise 3D coordinates, even under extreme scenarios like occlusion. Experiments on both standard and occlusion-specific benchmarks demonstrate the effectiveness of $\textbf{PostoMETRO}$, and a more than 6% performance improvement compared to our baseline model is obtained. Qualitative results further illustrate the clarity of how 2D pose can help 3D reconstruction. Code will be made available.
 
@@ -42,9 +42,9 @@ With the recent advancements in single-image-based human mesh recovery, there is
   <img src="./assets/pipeline.png" alt="Overview Image">
 </div>
 
-## Result
+## Result :rocket:
 
-We also some offer quantitive results for better comparison :eyes:
+We also some offer quantitive results for better comparison
 
 <div align="center">
   <img src="./assets/result1.png" alt="result1">
