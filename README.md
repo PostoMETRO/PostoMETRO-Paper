@@ -1,11 +1,14 @@
 # [WACV 2025] PostoMETRO: Pose Token Enhanced Mesh Transformer for Robust 3D Human Mesh Recovery
 
 - This is a repo for our WACV2025 paper :point_right: **PostoMETRO: Pose Token Enhanced Mesh Transformer for Robust 3D Human Mesh Recovery**
-- Our official project page can be found [here](https://postometro.github.io/) 
+- Our official project page can be found [here](https://postometro.github.io/)
+
+## Preliminary
+- Download SMPL neutral parametric model ``basicModel_neutral_lbs_10_207_0_v1.0.0.pkl`` on [SMPLify](https://smplify.is.tue.mpg.de/) and put it under ``src/modeling/data``.
 
 ## TODO Lists :memo:
 
-- [ ] Release model code.
+- [x] Release model code.
 - [ ] Release Training scripts.
 - [ ] Release checkpoints.
 
@@ -56,8 +59,10 @@ For more results, check our paper!
 ## Acknowledgement
 
 Our repository is adapted from the following repositories. Kudos to these great work!
+- [HRNet](https://github.com/HRNet/HRNet-Human-Pose-Estimation)
+- [SimBA](https://github.com/Microsoft/human-pose-estimation.pytorch)
+- [PCT](https://github.com/Gengzigang/PCT)
 - [METRO](https://github.com/microsoft/MeshTransformer)
 - [FastMETRO](https://github.com/postech-ami/FastMETRO)
 - [Pose2Mesh](https://github.com/hongsukchoi/Pose2Mesh_RELEASE)
 - [3DCrowdNet](https://github.com/hongsukchoi/3DCrowdNet_RELEASE)
-- [PCT](https://github.com/Gengzigang/PCT)
